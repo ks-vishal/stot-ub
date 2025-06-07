@@ -1,0 +1,107 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+/coverage
+
+# Production build
+/build
+/dist
+/out
+
+# Development
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Database
+*.sqlite
+*.sqlite3
+database/*.db
+database/stot.db
+
+# Hardhat/Blockchain
+/backend/cache/
+/backend/artifacts/
+/backend/typechain/
+/backend/typechain-types/
+.openzeppelin/
+/backend/coverage/
+/backend/coverage.json
+/backend/gas-report.txt
+
+# IoT/MQTT logs
+/backend/iot/logs/
+*.log
+
+# Frontend
+/frontend/.cache/
+/frontend/dist/
+/frontend/build/
+.next/
+.nuxt/
+.vuepress/dist
+
+# Compiled output
+*.compiled.js
+*.compiled.js.map
+*.min.js
+*.min.css
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.bak
+*.backup
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# Contract artifacts
+/backend/contract-address.json
+/backend/deployments/
+
+# Hardhat files
+cache/
+artifacts/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.eslintcache
+.stylelintcache
+.env.example
