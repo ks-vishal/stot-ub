@@ -1,0 +1,105 @@
+.
+├── 1.md
+├── 2.md
+├── 3.md
+├── backend
+│   ├── artifacts
+│   │   ├── build-info
+│   │   │   └── f8193a882c34177a87c6053d167f55ed.json
+│   │   ├── contracts
+│   │   │   ├── OrganTransport.sol
+│   │   │   │   ├── OrganTransport.dbg.json
+│   │   │   │   └── OrganTransport.json
+│   │   │   └── OrganTransportVerifier.sol
+│   │   │       ├── OrganTransportVerifier.dbg.json
+│   │   │       └── OrganTransportVerifier.json
+│   │   └── @openzeppelin
+│   │       └── contracts
+│   │           ├── access
+│   │           │   ├── AccessControl.sol
+│   │           │   │   ├── AccessControl.dbg.json
+│   │           │   │   └── AccessControl.json
+│   │           │   └── IAccessControl.sol
+│   │           │       ├── IAccessControl.dbg.json
+│   │           │       └── IAccessControl.json
+│   │           ├── security
+│   │           │   └── Pausable.sol
+│   │           │       ├── Pausable.dbg.json
+│   │           │       └── Pausable.json
+│   │           └── utils
+│   │               ├── Context.sol
+│   │               │   ├── Context.dbg.json
+│   │               │   └── Context.json
+│   │               ├── introspection
+│   │               │   ├── ERC165.sol
+│   │               │   │   ├── ERC165.dbg.json
+│   │               │   │   └── ERC165.json
+│   │               │   └── IERC165.sol
+│   │               │       ├── IERC165.dbg.json
+│   │               │       └── IERC165.json
+│   │               ├── math
+│   │               │   ├── Math.sol
+│   │               │   │   ├── Math.dbg.json
+│   │               │   │   └── Math.json
+│   │               │   └── SignedMath.sol
+│   │               │       ├── SignedMath.dbg.json
+│   │               │       └── SignedMath.json
+│   │               └── Strings.sol
+│   │                   ├── Strings.dbg.json
+│   │                   └── Strings.json
+│   ├── backend
+│   │   └── iot
+│   │       ├── package.json
+│   │       └── package-lock.json
+│   ├── blockchain
+│   │   ├── BlockchainService.js
+│   │   └── TransportContract.js
+│   ├── cache
+│   │   └── solidity-files-cache.json
+│   ├── config
+│   │   └── database.js
+│   ├── contract-address.json
+│   ├── contracts
+│   │   ├── OrganTransport.sol
+│   │   └── OrganTransportVerifier.sol
+│   ├── controllers
+│   ├── hardhat.config.js
+│   ├── ignition
+│   │   └── modules
+│   │       └── Lock.js
+│   ├── iot
+│   │   ├── logs
+│   │   │   ├── sensor_data.log
+│   │   │   └── uav_flights.log
+│   │   ├── sensorPublisher.js
+│   │   ├── SensorSimulator.js
+│   │   ├── sensorSubscriber.js
+│   │   ├── uavMonitor.js
+│   │   └── uavSimulator.js
+│   ├── models
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   ├── routes
+│   │   ├── auth.js
+│   │   └── transport.js
+│   ├── scripts
+│   │   ├── contract-address.json
+│   │   ├── deploy.js
+│   │   ├── deploy-verifier.js
+│   │   └── interact.js
+│   ├── server.js
+│   ├── test
+│   │   └── Lock.js
+│   └── uav
+│       └── DroneSimulator.js
+├── database
+│   └── stot.db
+├── env
+├── package.json
+├── package-lock.json
+├── README.md
+├── resources.text
+└── structure.txt
+
+40 directories, 63 files
