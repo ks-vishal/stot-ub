@@ -1,0 +1,53 @@
+{
+  "name": "stot-ub",
+  "version": "1.0.0",
+  "description": "Secure and Transparent Organ Transportation system using UAVs and blockchain technology",
+  "main": "index.js",
+  "workspaces": [
+    "blockchain",
+    "backend",
+    "frontend",
+    "simulation"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:blockchain\" \"npm run dev:simulation\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:blockchain": "cd blockchain && npm run dev",
+    "dev:simulation": "cd simulation && npm run dev",
+    "install:all": "npm install && npm run install:workspaces",
+    "install:workspaces": "npm install --workspace=blockchain && npm install --workspace=backend && npm install --workspace=frontend && npm install --workspace=simulation",
+    "build": "npm run build:backend && npm run build:frontend && npm run build:blockchain",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build:blockchain": "cd blockchain && npm run build",
+    "test": "npm run test:backend && npm run test:frontend && npm run test:blockchain",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "test:blockchain": "cd blockchain && npm test"
+  },
+  "keywords": [
+    "uav",
+    "blockchain",
+    "organ-transportation",
+    "medical",
+    "iot",
+    "solidity",
+    "react",
+    "nodejs"
+  ],
+  "author": "STOT-UB Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.14.19",
+    "ethers": "^6.15.0",
+    "react-toastify": "^11.0.5"
+  }
+}

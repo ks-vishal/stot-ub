@@ -1,0 +1,32 @@
+{
+  "name": "stot-ub-simulation",
+  "version": "1.0.0",
+  "description": "IoT sensor and UAV simulation for STOT-UB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.14.4",
+    "mqtt": "^5.3.5",
+    "socket.io-client": "^4.7.4",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "iot",
+    "simulation",
+    "sensors",
+    "uav",
+    "mqtt"
+  ],
+  "author": "STOT-UB Team",
+  "license": "MIT"
+}
