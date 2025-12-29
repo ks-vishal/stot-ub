@@ -138,18 +138,14 @@ mysql -u root -p
 mysql -u root -p < backend/src/database/schema.sql
 ```
 
-**Database Credentials** (as configured):
-- Database: `stot_ub`
-- User: `ayush`
-- Password: `#Rakesh@2021`
-
 4. **Configure environment variables**
 
 The backend `.env` is already configured with:
 ```env
 DB_HOST=localhost
-DB_USER=ayush
-DB_PASSWORD=#Rakesh@2021
+DB_USER=username
+DB_PASSWORD=password
+
 DB_NAME=stot_ub
 BACKEND_PORT=3001
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
